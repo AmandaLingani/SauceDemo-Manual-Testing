@@ -1,0 +1,5 @@
+# Test Scenario
+TS-001: Verify that search functionality works
+Description: Verify that items available items can be found and proper messages are displayed for unavailable items or invalid searches
+
+## Test Cases
