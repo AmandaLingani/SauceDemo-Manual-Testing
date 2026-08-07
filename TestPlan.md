@@ -10,7 +10,6 @@ The objective of this testing project is to evaluate the quality of the SauceDem
 - User authentication
 - Product browsing
 - Shopping cart
-- Checkout
 - Search
 - Cross-browser compatibility
 - Basic non-functional testing
