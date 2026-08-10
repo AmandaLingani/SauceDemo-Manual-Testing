@@ -6,9 +6,9 @@ TS-002: Verify product browsing functionality
 Description: Verify that available products are displayed correctly, with appropriate information including names, descriptions, prices and images
 
 ## Test Cases
-Test Case ID: TC-001 |
-Title: Verify search function filters and displays products with matching products|
-Preconditions: Item exists in the system |
+Test Case ID: TC-001
+Title: Verify search function filters and displays products with matching products
+Preconditions: Item exists in the system 
 Steps:
   1. Go to the search bar
   2. Type 'Grey Jacket'
