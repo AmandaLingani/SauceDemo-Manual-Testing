@@ -1,11 +1,9 @@
 # Test Scenario
 TS-001: Verify that search functionality works
-## Description: 
-Verify that available items can be found and appropriate messages are displayed for unavailable items or invalid searches
+-Description: Verify that available items can be found and appropriate messages are displayed for unavailable items or invalid searches
 
 TS-002: Verify product browsing functionality
-## Description: 
-Verify that available products are displayed correctly, with appropriate information including names, descriptions, prices and images
+-Description: Verify that available products are displayed correctly, with appropriate information including names, descriptions, prices and images
 
 ## Test Cases
 Test Case ID: TC-001
