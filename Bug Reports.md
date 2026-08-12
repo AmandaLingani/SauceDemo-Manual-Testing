@@ -5,4 +5,4 @@ Description: After adding an item to the cart, navigating to the shopping cart c
 Expected Result: The shopping cart should open successfully and display the item that was added.
 Actual Result: The application remains in a continuous loading state and the shopping cart does not open until the user navigates to another page.
 Evidence: 
-![ShoppingCartAnomaly](../Evidence/ShoppingCartAnomaly.png)
+![ShoppingCartAnomaly](Evidence/ShoppingCartAnomaly.png)
