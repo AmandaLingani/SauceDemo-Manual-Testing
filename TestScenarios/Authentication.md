@@ -10,6 +10,10 @@ Test Scenario ID: TS-002
 Title: Verify user login functionality
 Description: Verify that users can login successfully with valid credentials and invalid login attempts are handled.
 
+         //Boundary and security test scenarios
+Test Scenario ID: TS-002
+
+
 ### Test Cases
 Test Case ID: TC-001
 Title: Verify user can create account successfully
