@@ -1,8 +1,10 @@
 # Authentication
 ## Test Scenarios
 Test Scenario ID: TS-001
-Title: Verify user registration functionality
-Description: Verify that users can create accounts successfully and that duplicate users are handled accordingly.
+## Title: 
+Verify user registration functionality
+## Description:
+Verify that users can create accounts successfully and that duplicate users are handled accordingly.
 
 Test Scenario ID: TS-002
 Title: Verify user login functionality
