@@ -7,12 +7,22 @@ Verify user registration functionality
 Verify that users can create accounts successfully and that duplicate users are handled accordingly.
 
 Test Scenario ID: TS-002
-Title: Verify user login functionality
-Description: Verify that users can login successfully with valid credentials and invalid login attempts are handled.
+## Title:
+Verify user login functionality
+## Description: 
+Verify that users can login successfully with valid credentials and invalid login attempts are handled.
 
-         //Boundary and security test scenarios
-Test Scenario ID: TS-002
+Test Scenario ID: TS-003
+## Title:
+Verify password length requirement
+## Description:
+Verify that the application enforces the required password length when creating an account.
 
+Test Scenario ID: TS-004
+## Title: 
+Verify account lockout after multiple invalid login attempts
+## Description:
+Verify that the application locks the account after five consecutive invalid login attempts.
 
 ### Test Cases
 Test Case ID: TC-001
