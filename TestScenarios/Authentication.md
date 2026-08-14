@@ -20,9 +20,9 @@ Verify that the application enforces the required password length when creating 
 
 Test Scenario ID: TS-004
 ## Title: 
-Verify account lockout after multiple invalid login attempts
+Check application behaviour after multiple invalid login attempts
 ## Description:
-Verify that the application locks the account after five consecutive invalid login attempts.
+Assess how the application responds to repeated invalid login attempts.
 
 ### Test Cases
 Test Case ID: TC-001
