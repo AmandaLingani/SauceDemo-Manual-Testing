@@ -16,7 +16,7 @@ Test Scenario ID: TS-003
 ## Title:
 Verify password length requirement
 ## Description:
-Verify that the application enforces the required password length when creating an account.
+Verify that the application enforces the minimum password length when creating an account.
 
 Test Scenario ID: TS-004
 ## Title: 
@@ -98,3 +98,51 @@ Expected Results: Login fails and appropriate error message is displayed
 Actual Results: Login fails and error message is displayed "Incorrect email or password."
 Status: PASS
 
+Test Case ID: TC-007
+Title: Verify registration fails when password is below the minimum length
+Preconditions: User must not have an existing account
+Steps: 
+ 1. Navigate to 'Create Account'
+ 2. Enter all required fields with valid information
+ 3. Create password with less than 5 characters
+ 4. Click 'Sign Up'
+Expected Results: Account registration fails and an appropriate password length validation message is displayed
+Actual Results: Account registration fails and message is displayed "Password is too short (minimum is 5 characters)"
+Status: PASS
+
+Test Case ID: TC-008
+Title: verify registration succeeds when password exceeds minimum length
+Preconditions: User must not have an existing account
+Steps: 
+ 1. Navigate to 'Create Account'
+ 2. Enter all required fields with valid information
+ 3. Create password with more than 5 characters
+ 4. Click 'Sign Up'
+Expected Results: Account registration is successful and the user is redirected to the Home Page
+Actual Results: Account registration is successful and user is redirected to the Home Page
+Status: PASS
+
+TC-009
+Title:Verify registration succeeds when password meets the minimum length
+Preconditions: User must not have an existing account
+Steps:
+Navigate to 'Create Account'
+ 1. Enter all required fields with valid information
+ 2. Create a password containing exactly 5 characters
+ 3. Click 'Sign Up'
+Expected Results: Account registration is successful and the user is redirected to the Home Page.
+Actual Result: Account registration is successful and the user is redirected to the Home Page.
+Status: PASS
+
+Test Case ID: TC-010
+Title: Assess application behaviour after multiple invalid login attempts
+Preconditions: User account already exists
+Steps:
+ 1. Navigate to 'Login'.
+ 2. Enter an incorrect password for a valid account
+ 3. Click 'Sign In'
+ 4. Repeat the login attempt using invalid credentials until five consecutive invalid attempts have been made.
+ 5. Observe the application's response
+Expected Results: The application should prevent further login attempts or apply an appropriate security measure after multiple consecutive invalid login attempts.
+Actual Results: The application does not lock the account or prevent further login attempts after five consecutive invalid login attempts. The user can continue attempting to log in.
+Status: Observation
